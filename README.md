@@ -122,6 +122,31 @@ npm run test:watch
 npm run test:coverage
 ```
 
+## 🚀 Deployment
+
+This project is configured for automatic deployment to GitHub Pages.
+
+### Live Demo
+
+🌐 **[View Live Demo](https://mindtzijib-mx.github.io/mapty-app/)**
+
+### Automatic Deployment
+
+The app automatically deploys to GitHub Pages when you push to the `main` branch using GitHub Actions:
+
+1. **Tests Run**: All tests must pass before deployment
+2. **Linting**: Code is checked for style issues
+3. **Build**: Production build is created
+4. **Deploy**: Automatically deployed to GitHub Pages
+
+### Manual Deployment
+
+You can also deploy manually using:
+
+```bash
+npm run deploy
+```
+
 ## 🔧 Available Scripts
 
 - `npm run dev` - Start development server
@@ -131,6 +156,7 @@ npm run test:coverage
 - `npm test` - Run tests
 - `npm run test:watch` - Run tests in watch mode
 - `npm run test:coverage` - Run tests with coverage report
+- `npm run deploy` - Deploy to GitHub Pages manually
 
 ## 🎨 Design Features
 
