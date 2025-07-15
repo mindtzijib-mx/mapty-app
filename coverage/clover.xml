@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1752618442779" clover="3.2.0">
+  <project timestamp="1752618442779" name="All files">
+    <metrics statements="82" coveredstatements="78" conditionals="22" coveredconditionals="19" methods="26" coveredmethods="26" elements="130" coveredelements="123" complexity="0" loc="82" ncloc="82" packages="3" files="4" classes="4"/>
+    <package name="components">
+      <metrics statements="45" coveredstatements="43" conditionals="20" coveredconditionals="18" methods="15" coveredmethods="15"/>
+      <file name="WorkoutForm.tsx" path="/home/otilio/Documents/mapty-app/src/components/WorkoutForm.tsx">
+        <metrics statements="38" coveredstatements="36" conditionals="16" coveredconditionals="14" methods="12" coveredmethods="12"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="40" type="stmt"/>
+        <line num="15" count="40" type="stmt"/>
+        <line num="16" count="40" type="stmt"/>
+        <line num="17" count="40" type="stmt"/>
+        <line num="18" count="40" type="stmt"/>
+        <line num="20" count="40" type="stmt"/>
+        <line num="22" count="40" type="stmt"/>
+        <line num="24" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="29" count="40" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="38" count="15" type="stmt"/>
+        <line num="39" count="10" type="stmt"/>
+        <line num="41" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="50" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="68" count="40" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="95" count="6" type="stmt"/>
+        <line num="108" count="8" type="stmt"/>
+        <line num="122" count="9" type="stmt"/>
+        <line num="135" count="3" type="stmt"/>
+        <line num="147" count="1" type="stmt"/>
+      </file>
+      <file name="WorkoutList.tsx" path="/home/otilio/Documents/mapty-app/src/components/WorkoutList.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="72" count="7" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="12" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+      <file name="useGeolocation.ts" path="/home/otilio/Documents/mapty-app/src/hooks/useGeolocation.ts">
+        <metrics statements="12" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="45" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="types">
+      <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="workout.ts" path="/home/otilio/Documents/mapty-app/src/types/workout.ts">
+        <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+        <line num="28" count="14" type="stmt"/>
+        <line num="29" count="14" type="stmt"/>
+        <line num="30" count="14" type="stmt"/>
+        <line num="33" count="14" type="stmt"/>
+        <line num="34" count="14" type="stmt"/>
+        <line num="35" count="14" type="stmt"/>
+        <line num="39" count="12" type="stmt"/>
+        <line num="54" count="12" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="7" type="stmt"/>
+        <line num="72" count="7" type="stmt"/>
+        <line num="74" count="7" type="stmt"/>
+        <line num="75" count="7" type="stmt"/>
+        <line num="76" count="7" type="stmt"/>
+        <line num="80" count="7" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="85" count="5" type="stmt"/>
+        <line num="92" count="5" type="stmt"/>
+        <line num="94" count="5" type="stmt"/>
+        <line num="95" count="5" type="stmt"/>
+        <line num="96" count="5" type="stmt"/>
+        <line num="100" count="5" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

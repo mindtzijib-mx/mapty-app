@@ -10,7 +10,7 @@ interface WorkoutFormProps {
   onCancel: () => void;
 }
 
-const WorkoutForm = ({ onSubmit, onCancel }: WorkoutFormProps) => {
+const WorkoutForm = ({ onSubmit }: WorkoutFormProps) => {
   const [type, setType] = useState<"running" | "cycling">("running");
   const [distance, setDistance] = useState("");
   const [duration, setDuration] = useState("");
@@ -68,8 +68,11 @@ const WorkoutForm = ({ onSubmit, onCancel }: WorkoutFormProps) => {
   return (
     <form className="form" onSubmit={handleSubmit}>
       <div className="form__row">
-        <label className="form__label">Type</label>
+        <label className="form__label" htmlFor="workout-type">
+          Type
+        </label>
         <select
+          id="workout-type"
           className="form__input form__input--type"
           value={type}
           onChange={(e) => setType(e.target.value as "running" | "cycling")}
@@ -80,8 +83,11 @@ const WorkoutForm = ({ onSubmit, onCancel }: WorkoutFormProps) => {
       </div>
 
       <div className="form__row">
-        <label className="form__label">Distance</label>
+        <label className="form__label" htmlFor="workout-distance">
+          Distance
+        </label>
         <input
+          id="workout-distance"
           ref={distanceInputRef}
           className="form__input form__input--distance"
           placeholder="km"
@@ -91,8 +97,11 @@ const WorkoutForm = ({ onSubmit, onCancel }: WorkoutFormProps) => {
       </div>
 
       <div className="form__row">
-        <label className="form__label">Duration</label>
+        <label className="form__label" htmlFor="workout-duration">
+          Duration
+        </label>
         <input
+          id="workout-duration"
           className="form__input form__input--duration"
           placeholder="min"
           value={duration}
@@ -102,8 +111,11 @@ const WorkoutForm = ({ onSubmit, onCancel }: WorkoutFormProps) => {
 
       {type === "running" ? (
         <div className="form__row">
-          <label className="form__label">Cadence</label>
+          <label className="form__label" htmlFor="workout-cadence">
+            Cadence
+          </label>
           <input
+            id="workout-cadence"
             className="form__input form__input--cadence"
             placeholder="step/min"
             value={cadence}
@@ -112,8 +124,11 @@ const WorkoutForm = ({ onSubmit, onCancel }: WorkoutFormProps) => {
         </div>
       ) : (
         <div className="form__row">
-          <label className="form__label">Elev Gain</label>
+          <label className="form__label" htmlFor="workout-elevation">
+            Elev Gain
+          </label>
           <input
+            id="workout-elevation"
             className="form__input form__input--elevation"
             placeholder="meters"
             value={elevation}
