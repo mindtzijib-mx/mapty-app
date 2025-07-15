@@ -15,11 +15,12 @@
 - [ ] Repository name matches the base path in `vite.config.ts`
 - [ ] Main branch exists and is up to date
 
-### 3. GitHub Pages Configuration
+### 3. GitHub Pages Configuration ⚠️ **CRITICAL STEP**
 
 - [ ] Go to repository **Settings** → **Pages**
-- [ ] Set **Source** to **"GitHub Actions"**
-- [ ] Ensure **Branch** is set to **"main"** (if using branch deployment)
+- [ ] Set **Source** to **"GitHub Actions"** (NOT "Deploy from a branch")
+- [ ] This step is REQUIRED - the "Not Found" error occurs when this isn't set
+- [ ] Also check **Settings** → **Actions** → **General** → Set "Read and write permissions"
 
 ### 4. Files Check
 
