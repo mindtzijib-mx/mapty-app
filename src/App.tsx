@@ -140,7 +140,7 @@ function App() {
   return (
     <div className="app">
       <div className="sidebar">
-        <img src="/logo.png" alt="Logo" className="logo" />
+        <img src="./logo.png" alt="Logo" className="logo" />
 
         <div className="workouts">
           {showForm && (
